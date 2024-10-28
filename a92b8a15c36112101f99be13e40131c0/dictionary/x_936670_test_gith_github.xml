@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="d77b4ad9c3e112101f99be13e401316f" label="Github" max_length="40" name="x_936670_test_gith_github" type="collection">
-        <element attributes="edge_encryption_enabled=true" label="Test2" max_length="40" name="test2" type="string"/>
-        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    <element audit="true" db_object_id="d77b4ad9c3e112101f99be13e401316f" label="Github" max_length="40" name="x_936670_test_gith_github" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="New Calendar Date/Time" max_length="40" name="u_calendar_date_time_1" type="calendar_date_time"/>
         <element attributes="edge_encryption_enabled=true" label="Test3" max_length="40" name="test3" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Test1" max_length="40" name="test1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Test2" max_length="40" name="test2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
     </element>
 </database>
